@@ -26,7 +26,7 @@ function App() {
       await callApi();
       setInterval(async () => {
         callApi();
-      }, 5000);
+      }, 3000);
     }
 
     pollApi();
@@ -34,9 +34,9 @@ function App() {
 
   async function callApi() {
     try {
-      const res = await axios.get('http://api.open-notify.org/iss-now.json');
-      const position = res.data.iss_position;
-      await setIssPosition({ latitude: position.latitude * 1, longitude: position.longitude * 1 });
+      const res = await axios.get('https://api.wheretheiss.at/v1/satellites/25544');
+      const data = res.data;
+      await setIssPosition({ latitude: data.latitude * 1, longitude: data.longitude * 1, velocity: data.velocity * 1, altitude: data.altitude * 1, visibility: data.visibility, units: data.units });
     } catch (err) {
       console.error(err);
     }
