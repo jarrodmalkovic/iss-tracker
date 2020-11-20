@@ -19,6 +19,7 @@ function Map({ issPosition }) {
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_KEY }}
                     center={[issPosition.latitude, issPosition.longitude]}
+                    yesIWantToUseGoogleMapApiInternals
                     defaultZoom={3}
                 >
                     <IssMarker lat={issPosition.latitude} lng={issPosition.longitude} />
