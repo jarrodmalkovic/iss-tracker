@@ -34,7 +34,7 @@ function LocationInfoBox({ issPosition }) {
                 Current Longitude: {issPosition.longitude.toFixed(4)}
             </Typography>
             <Typography variant="subtitle1">
-                Current Velocity: {issPosition.velocity.toFixed(4)} {issPosition.units === 'kilometers' ? 'km/h' : 'm/h'}
+                Current Velocity: {issPosition.velocity.toFixed(4)} {issPosition.units === 'kilometers' ? 'km/h' : 'mi/h'}
             </Typography>
             <Typography variant="subtitle1">
                 Current Altitude: {issPosition.altitude.toFixed(4)} {issPosition.units === 'kilometers' ? 'km' : 'miles'}
