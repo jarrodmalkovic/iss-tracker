@@ -1,6 +1,6 @@
 # ISS Tracker
 
-A full stack auction website created using the MERN Stack
+A web app for tracking the position of the International Space Station
 
 ## Table of contents
 
