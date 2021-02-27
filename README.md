@@ -9,7 +9,7 @@ A full stack auction website created using the MERN Stack
 - [Technologies](#technologies)
 - [License](#license)
 
-## Quick Start
+## Features
 - Feature list coming soon
 
 ## Quick Start
