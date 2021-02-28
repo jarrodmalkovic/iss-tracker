@@ -4,13 +4,9 @@ A web app for tracking the position of the International Space Station
 
 ## Table of contents
 
-- [Features](#features)
 - [Quick Start](#quick-start)
 - [Technologies](#technologies)
 - [License](#license)
-
-## Features
-- Feature list coming soon
 
 ## Quick Start
 
