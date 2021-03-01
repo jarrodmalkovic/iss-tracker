@@ -4,11 +4,11 @@ A web app for tracking the position of the International Space Station
 
 ## Table of contents
 
-- [Quick Start](#quick-start)
+- [Run Locally](#run-locally)
 - [Technologies](#technologies)
 - [License](#license)
 
-## Quick Start
+## Run Locally
 
 ### Clone this repo to your locally
 
